@@ -30,7 +30,7 @@ export default function Home({ navigation }) {
                             </View>
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={ goToHomologation }>
+                    <TouchableOpacity onPress={ goToHomologation     }>
                         <View style={ styles2.homecontainer_option }>
                             <Foundation style={ styles2.homecontainer_menuicon__mobile } name='mobile' size={45}></Foundation>
                             <View style={ styles2.item }>
@@ -58,7 +58,7 @@ export default function Home({ navigation }) {
                     <View style={ styles2.homecontainer_quickaccessContent }>
                         <TouchableOpacity style={ styles2.homecontainer_quickcard }>
                             <Foundation style={ styles2.homecontainer_quickcardicon } name='dollar' size={45}></Foundation>
-                            <Text style={ styles2.homecontainer_quickaccestext } >Homologacion</Text>
+                            <Text style={ styles2.homecontainer_quickaccestext } >Saldo</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={ styles2.homecontainer_quickcard }>
                             <Foundation style={ styles2.homecontainer_quickcardicon } name='mobile' size={45}></Foundation>
@@ -66,7 +66,7 @@ export default function Home({ navigation }) {
                         </TouchableOpacity>
                         <TouchableOpacity style={ styles2.homecontainer_quickcard }>
                             <Foundation style={ styles2.homecontainer_quickcardicon } name='comment' size={45}></Foundation>
-                            <Text style={ styles2.homecontainer_quickaccestext } >Homologacion</Text>
+                            <Text style={ styles2.homecontainer_quickaccestext } >Reclamos</Text>
                         </TouchableOpacity>
                     </View>
                 </View>
